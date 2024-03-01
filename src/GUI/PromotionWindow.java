@@ -30,20 +30,20 @@ public class PromotionWindow implements ActionListener {
         frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
         frame.setSize(144, 522);
         frame.setResizable(false);
-        frame.setIconImage(GameWindow.resizImageIcon((new ImageIcon("resources\\Chess_Icon.png")), 40).getImage());
+        frame.setIconImage(GameWindow.resizImageIcon((new ImageIcon("resources/Chess_Icon.png")), 40).getImage());
         frame.setLocationRelativeTo(null);
         frame.getContentPane().setBackground(new Color(0x474747));
         frame.setLayout(new FlowLayout(0, 10, 10));
 
-        ImageIcon queenIcon = GameWindow.resizImageIcon((new ImageIcon("resources\\whiteQueen.png")), 100);
-        ImageIcon rookIcon = GameWindow.resizImageIcon((new ImageIcon("resources\\whiteRook.png")), 100);
-        ImageIcon knightIcon = GameWindow.resizImageIcon((new ImageIcon("resources\\whiteKnight.png")), 100);
-        ImageIcon bishopIcon = GameWindow.resizImageIcon((new ImageIcon("resources\\whiteBishop.png")), 100);
+        ImageIcon queenIcon = GameWindow.resizImageIcon((new ImageIcon("resources/whiteQueen.png")), 100);
+        ImageIcon rookIcon = GameWindow.resizImageIcon((new ImageIcon("resources/whiteRook.png")), 100);
+        ImageIcon knightIcon = GameWindow.resizImageIcon((new ImageIcon("resources/whiteKnight.png")), 100);
+        ImageIcon bishopIcon = GameWindow.resizImageIcon((new ImageIcon("resources/whiteBishop.png")), 100);
 
-        ImageIcon bQueenIcon = GameWindow.resizImageIcon((new ImageIcon("resources\\blackQueen.png")), 100);
-        ImageIcon bRookIcon = GameWindow.resizImageIcon((new ImageIcon("resources\\blackRook.png")), 100);
-        ImageIcon bKnightIcon = GameWindow.resizImageIcon((new ImageIcon("resources\\blackKnight.png")), 100);
-        ImageIcon bBishopIcon = GameWindow.resizImageIcon((new ImageIcon("resources\\blackBishop.png")), 100);
+        ImageIcon bQueenIcon = GameWindow.resizImageIcon((new ImageIcon("resources/blackQueen.png")), 100);
+        ImageIcon bRookIcon = GameWindow.resizImageIcon((new ImageIcon("resources/blackRook.png")), 100);
+        ImageIcon bKnightIcon = GameWindow.resizImageIcon((new ImageIcon("resources/blackKnight.png")), 100);
+        ImageIcon bBishopIcon = GameWindow.resizImageIcon((new ImageIcon("resources/blackBishop.png")), 100);
 
 
         queen = new JRadioButton();

@@ -1,0 +1,12 @@
+
+# IDE Specific
+.idea
+.vscode
+*.iml
+
+# Logs
+*.log
+
+# Custom Dirs
+out/
+bin/

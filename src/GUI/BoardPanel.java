@@ -33,18 +33,18 @@ public class BoardPanel extends JPanel implements MouseListener, MouseMotionList
 
     static {
         try{
-            whitePawn = resize(ImageIO.read(new File("resources\\whitePawn.png")));
-            blackPawn = resize(ImageIO.read(new File("resources\\blackPawn.png")));
-            whiteKnight = resize(ImageIO.read(new File("resources\\whiteKnight.png")));
-            blackKnight = resize(ImageIO.read(new File("resources\\blackKnight.png")));
-            whiteBishop = resize(ImageIO.read(new File("resources\\whiteBishop.png")));
-            blackBishop = resize(ImageIO.read(new File("resources\\blackBishop.png")));
-            whiteRook = resize(ImageIO.read(new File("resources\\whiteRook.png")));
-            blackRook = resize(ImageIO.read(new File("resources\\blackRook.png")));
-            whiteQueen = resize(ImageIO.read(new File("resources\\whiteQueen.png")));
-            blackQueen = resize(ImageIO.read(new File("resources\\blackQueen.png")));
-            whiteKing = resize(ImageIO.read(new File("resources\\whiteKing.png")));
-            blackKing = resize(ImageIO.read(new File("resources\\blackKing.png")));
+            whitePawn = resize(ImageIO.read(new File("src/resources/whitePawn.png")));
+            blackPawn = resize(ImageIO.read(new File("src/resources/blackPawn.png")));
+            whiteKnight = resize(ImageIO.read(new File("src/resources/whiteKnight.png")));
+            blackKnight = resize(ImageIO.read(new File("src/resources/blackKnight.png")));
+            whiteBishop = resize(ImageIO.read(new File("src/resources/whiteBishop.png")));
+            blackBishop = resize(ImageIO.read(new File("src/resources/blackBishop.png")));
+            whiteRook = resize(ImageIO.read(new File("src/resources/whiteRook.png")));
+            blackRook = resize(ImageIO.read(new File("src/resources/blackRook.png")));
+            whiteQueen = resize(ImageIO.read(new File("src/resources/whiteQueen.png")));
+            blackQueen = resize(ImageIO.read(new File("src/resources/blackQueen.png")));
+            whiteKing = resize(ImageIO.read(new File("src/resources/whiteKing.png")));
+            blackKing = resize(ImageIO.read(new File("src/resources/blackKing.png")));
         }
         catch (IOException e) {
             System.out.println("image file not found");
